@@ -11,7 +11,7 @@ provider "local" {
 
 }
 
-resource "local_file" "vk_text1" {
+resource "local_file" "genaric" "vk_text1" {
     filename                                = "/temp/terracode/vk.txt"
     content                                 = "Hi Omprakash this folder creation using terrafor"
 }
