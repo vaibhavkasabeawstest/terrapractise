@@ -12,6 +12,6 @@ provider "local" {
 }
 
 resource "local_file" "om_text1" {
-    filename                                = "/temp/terracode/om.txt"
-    content                                 = "Hi Omprakash this folder creation using terraform"
-    }
+    filename        ="/tmp/om_text1"
+    content         ="Hi oj folder creation done"
+}
