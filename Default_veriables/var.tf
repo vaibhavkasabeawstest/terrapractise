@@ -11,7 +11,7 @@ variable "content" {
 }
 
 variable "filename1" {
-    default = = "tmp/var1.txt"
+    default = "tmp/var1.txt"
     description = "this is file name vaiable1"
     type = string
 }

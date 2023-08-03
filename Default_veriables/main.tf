@@ -24,7 +24,7 @@ content = var.content
 }
 
 resource "local_file" "Geniric_variable_file3" {
-    filename =  = "/tmp/file2.txt"
+    filename = "/tmp/file2.txt"
     content = "hi from ip 5.6.7.8"
 }
 
