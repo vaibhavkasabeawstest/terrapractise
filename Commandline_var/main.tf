@@ -19,5 +19,5 @@ resource "local_file" "Geniric_string_file1" {
   #key           ="value"
   filename = var.filename_str
   content = var.content_str
-
+  file_permission   = var.filename_str
 }
